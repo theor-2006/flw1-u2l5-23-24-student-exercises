@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .underline {
+    text-align: center;
+    height: 5px;
+    width: 200px;
+    background-color: #bdbdf5;
+    margin: auto;
+  }
+  
+  .menu{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .menuList{
+    display: inline-block;
+    text-align: left;
+  }
+  
+  li{
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
