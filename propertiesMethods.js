@@ -3,8 +3,8 @@
 //  - Returns its length
 
   
-const myArray = [1, 2, 3, 4, 5];
-console.log(arrLength(myArray)); // Should print 5
+let myArray1 = [1, 2, 3, 4, 5];
+console.log(arrLength(myArray1)); // Should print 5
   
 // 2. Write a function name pushElement that:
 //  - Takes an array and an element
@@ -12,9 +12,9 @@ console.log(arrLength(myArray)); // Should print 5
 //  - Returns the array
 
   
-const myArray = [1, 2, 3];
-pushElement(myArray, 4);
-console.log(myArray); // Should print [1, 2, 3, 4]
+let myArray2 = [1, 2, 3];
+pushElement(myArray2, 4);
+console.log(myArray2); // Should print [1, 2, 3, 4]
   
 
 // 3. Write a function named popElement that:
@@ -22,28 +22,28 @@ console.log(myArray); // Should print [1, 2, 3, 4]
 //  - Returns the array
 
   
-const myArray = [1, 2, 3, 4];
-popElement(myArray);
-console.log(myArray); // Should print [1, 2, 3]
+let myArray3 = [1, 2, 3, 4];
+popElement(myArray3);
+console.log(myArray3); // Should print [1, 2, 3]
   
 
 // 4. Write a function named shiftElement that:
 //  - Takes an array and removes the first element using the shift() method
+//  - Returns the array
 
-  
-const myArray = [1, 2, 3, 4];
-shiftElement(myArray);
-console.log(myArray); // Should print [2, 3, 4]
+let myArray4 = [1, 2, 3, 4];
+shiftElement(myArray4);
+console.log(myArray4); // Should print [2, 3, 4]
   
 
-// 5. Write a function that:
+// 5. Write a function named unshiftElement that:
 //  - Takes an array and an element
 //  - Adds the element to the beginning of the array using the unshift() method
-
+//  - Returns the array
   
-const myArray = [2, 3, 4];
-unshiftElement(myArray, 1);
-console.log(myArray); // Should print [1, 2, 3, 4]
+let myArray5 = [2, 3, 4];
+unshiftElement(myArray5, 1);
+console.log(myArray5); // Should print [1, 2, 3, 4]
 
 
 // CHALLENGE
@@ -56,8 +56,8 @@ console.log(myArray); // Should print [1, 2, 3, 4]
 
 
 
-const array1 = [1, 2, 3];
-const array2 = ['a', 'b', 'c'];
-const array3 = [4, 5, 6];
-const mergedArray = mergeArrays(array1, array2, array3);
+let array1 = [1, 2, 3];
+let array2 = ['a', 'b', 'c'];
+let array3 = [4, 5, 6];
+let mergedArray = mergeArrays(array1, array2, array3);
 console.log(mergedArray); // Should print [1, 2, 3, 'a', 'b', 'c', 4, 5, 6]
